@@ -1,4 +1,4 @@
-var widget = "https://discord.com/api/guilds/367648314184826880/widget.json";
+var widget = "https://discordapp.com/api/guilds/367648314184826880/widget.json";
 
 var openInvite = function (data) {
     $(".text").text(JSON.parse(data)["instant_invite"]);

@@ -1,6 +1,5 @@
 const widget = "https://discord.com/api/guilds/367648314184826880/widget.json";
 const text = document.getElementById("text");
-text.textContent = "  ";
 
 const openInvite = function (data) {
     const invite = JSON.parse(data)["instant_invite"];

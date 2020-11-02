@@ -1,4 +1,4 @@
-const widget = "https://discord.com/api/guilds/367648314184826880/widget.json";
+const widget = "https://discord.com/api/guilds/762644745511239690/widget.json";
 const link = document.getElementById("link");
 
 const openInvite = function (data) {
